@@ -12,7 +12,7 @@ The gesture database was collected from eleven subjects (ten females and one mal
 
 ## Format of Raw Data
 
-Our sensing system includes 11 IMUs (MTw Awinda, Xsens). The sensor may transmit the orientation data in the form of quaternion to a computer with a modifiable sampling frequency (40 Hz in this study), which could represent the orientations of IMU coordinate in the global coordinate.
+Our sensing system includes 11 IMUs (MTw Awinda, Xsens). 11 IMUs are fixed on Head, Throax, left upper arm (LUArm), left forearm (LFArm), right upper arm (RUArm), right forearm (RFArm), waist (Waist), left thigh (LThigh), left shank (LShank), right thigh (RThigh), and right shank (RShank). The sensor may transmit the orientation data in the form of quaternion to a computer with a modifiable sampling frequency (40 Hz in this study), which could represent the orientations of IMU coordinate in the global coordinate.
 
 The file name of raw data files is in the format of %x%num.log and %x%num.txt, where %x is the gesture code name and %num is the trile num, %x%num.log is the calibration data and %x%num.txt is the measured data. The code names corresponding relation to gestures are the following:
 
