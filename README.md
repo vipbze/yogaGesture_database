@@ -59,5 +59,5 @@ The folder with the "nonStandard" contains the nonstandard gesture data of Stand
 Every line of a raw data file (.txt) is senser data of a sample period. Every line contains 1 int and 143 floats:
 
 ```
-PacketCount	(q0	q1	q2	q3	accX	accY	accZ	gyrX	gyrY	gyrZ	magX	magY	magZ）
+PacketCount	(q0	q1	q2	q3	accX	accY	accZ	gyrX	gyrY	gyrZ	magX	magY	magZ）*13
 ```
