@@ -17,26 +17,47 @@ Our sensing system includes 11 IMUs (MTw Awinda, Xsens). The sensor may transmit
 The file name of raw data files is in the format of %x%num.log and %x%num.txt, where %x is the gesture code name and %num is the trile num, %x%num.log is the calibration data and %x%num.txt is the measured data. The code names corresponding relation to gestures are the following:
 
 a——Stand deep breathing
+
 bl——Left semilunar
+
 br——Right semilunar
+
 c——Utkatasana type
+
 dl——Left triangle
-dr-RIght triangle
+
+dr——RIght triangle
+
 el——Left tree
+
 er——Right tree
+
 g——Supine
+
 hl——Left draught
+
 hr——Right draught
+
 i——Cobra
+
 k——Grasshoppers
+
 l——Lying hero
+
 m——Half Tortoise
+
 n—camel
+
 o——Rabbit
+
 p——sitting inhalation
 
 All data of one subject is put in the same folder. 
 
 The folder with the "nonStandard" contains the nonstandard gesture data of Stand deep breathing. The file name of nonstandard data of Stand deep breathing, is in the format of %anot%num.txt and %anot%num.log, where every three files are the data of one nonstandard situation.  
 
-Every line of a raw data file (.txt) is senser data of a sample period. Every line contains 12 floats:
+Every line of a raw data file (.txt) is senser data of a sample period. Every line contains 1 int and 143 floats:
+
+```
+PacketCount	(q0	q1	q2	q3	accX	accY	accZ	gyrX	gyrY	gyrZ	magX	magY	magZ）
+```
