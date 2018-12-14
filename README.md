@@ -8,7 +8,8 @@ The gesture database was collected from eleven subjects (ten females and one mal
 
 ## Gesture Definition
 
-18 common yoga gestures were modelled as shown in the following figure. All gestures are static. Based on the waist IMU coordinate relative to skeleton animation coordinate, 18 gestures will be divided into 5 categories in advance. Getsure 1, 4, 7, 8, 18 belong to the ”Stand” category. Gesture 2, 5 belong to the ”Lean Left” category. Gesture 3, 6 belong to ”Lean Right” category. Gesture 9, 10, 11, 14, 16 belong to ”Lie on back” category. Gesture 12, 13, 15, 17 belong to ”Lie on stomach” category.
+18 common yoga gestures were modelled as shown in the following figure. All gestures are static. Based on the waist IMU coordinate relative to skeleton animation coordinate, 18 gestures will be divided into 5 categories in advance. Getsure 1, 4, 5, 6, 7 belong to the ”Stand” category. Gesture 2, 9belong to the ”Lean Left” category. Gesture 3, 8 belong to ”Lean Right” category. Gesture 10, 12, 13, 15, 17 belong to ”Lie on back” category. Gesture 11, 14, 14, 18 belong to ”Lie on stomach” category.
+![gestures](yoga_gestures.jpg)
 
 ## Format of Raw Data
 
