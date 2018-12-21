@@ -10,7 +10,7 @@ The posture database was collected from eleven subjects (ten females and one mal
 
 18 common yoga postures were modelled as shown in the following figure. All postures are static. Based on the waist IMU coordinate relative to skeleton animation coordinate, 18 postures will be divided into 5 categories in advance. Posture 1, 4, 5, 6, 7 belong to the ”Stand” category. Posture 2, 9 belong to the ”Lean Left” category. Posture 3, 8 belong to ”Lean Right” category. Posture 10, 12, 13, 15, 17 belong to ”Lie on back” category. Posture 11, 14, 16, 18 belong to ”Lie on stomach” category.
 
-![postures](yoga_gestures.jpg)
+!(yoga_gestures.jpg)
 
 ## Format of Raw Data
 
